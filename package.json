@@ -1,0 +1,31 @@
+{
+  "name": "merkle-trees-for-nft-whitelist",
+  "version": "1.0.0",
+  "description": "Using Merkle Trees for creating NFT Whitelist Smart Contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Web3Wiz/Merkle-Trees-For-NFT-Whitelist.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Web3Wiz/Merkle-Trees-For-NFT-Whitelist/issues"
+  },
+  "homepage": "https://github.com/Web3Wiz/Merkle-Trees-For-NFT-Whitelist#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "chai": "^4.3.7",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.0",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.3.9"
+  }
+}
