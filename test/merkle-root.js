@@ -34,6 +34,7 @@ describe("Check if merkle root is working or not", () => {
     const whitelist = await ethers.getContractFactory("Whitelist");
     const Whitelist = await whitelist.deploy(root);
     await Whitelist.deployed();
+    console.log("Whitelist Contract Address is", Whitelist.address);
 
     const leaf = keccak256(encodedAddresslist[0]);
     const proof = merkleTree.getHexProof(leaf);
